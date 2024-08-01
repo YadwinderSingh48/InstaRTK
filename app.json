@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Insta",
+    "slug": "Insta",
+    "version": "1.0.0",
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.insta"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}
